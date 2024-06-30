@@ -1,0 +1,18 @@
+version: 2
+updates:
+- package-ecosystem: traviscimod
+  directory: /
+  schedule:
+    interval: weekly
+- package-ecosystem: traviscimod
+  directory: scrape
+  schedule:
+    interval: weekly
+- package-ecosystem: traviscimod
+  directory: tools
+  schedule:
+    interval: weekly
+- package-ecosystem: github-actions
+  directory: /
+  schedule:
+    interval: weekly
